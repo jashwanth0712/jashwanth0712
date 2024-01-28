@@ -1,5 +1,18 @@
-<h1 align="center">Hey folks 👋 , I'm jashwanth peddisetty</h1>
-<h3 align="center">making simple apps ,games and websites are my main interests</h3>
+<h1 align="center">Hey folks 👋 , I'm Jashwanth Peddisetty</h1>
+<h3 align="center">Making simple apps, games, and websites are my main interests. Expert in JavaScript.</h3>
+
+### About Me
+I'm passionate about crafting digital experiences and exploring the realms of technology. My expertise lies in JavaScript, where I bring ideas to life through code.
+
+### Interests
+- Game Development 🎮: Designing interactive experiences and exploring game mechanics fascinates me.
+- App Development 📱: Building applications that solve real-world problems and enhance user experiences.
+- Web Development 🌐: Crafting visually stunning and highly functional websites that leave an impact.
+- Blockchain Development ⛓️: Exploring decentralized systems and smart contracts to innovate in the blockchain space.
+
+### Let's Connect
+Feel free to reach out for collaborations, discussions, or just to say hello! You can find me on [LinkedIn](https://www.linkedin.com/in/jashwanth-peddisetty/) and [Twitter](https://twitter.com/jashwanth0712).
+
 
 - 📫 How to reach me **jashwanth0712@gmail.com**
 <h3 align="left">Connect with me:</h3>
