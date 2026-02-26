@@ -1,25 +1,96 @@
-<h1 align="center">Hey folks 👋 , I'm Jashwanth Peddisetty</h1>
-<h3 align="center">Making simple apps, games, and websites are my main interests. Expert in JavaScript.</h3>
+<h1 align="center">Jashwanth Peddisetty</h1>
+<p align="center"><strong>Builder. Shipping products that people actually use.</strong></p>
 
-### About Me
-I'm passionate about crafting digital experiences and exploring the realms of technology. My expertise lies in JavaScript, where I bring ideas to life through code.
-
-### Interests
-- Game Development 🎮: Designing interactive experiences and exploring game mechanics fascinates me.
-- App Development 📱: Building applications that solve real-world problems and enhance user experiences.
-- Web Development 🌐: Crafting visually stunning and highly functional websites that leave an impact.
-- Blockchain Development ⛓️: Exploring decentralized systems and smart contracts to innovate in the blockchain space.
-
-### Let's Connect
-Feel free to reach out for collaborations, discussions, or just to say hello! You can find me on [LinkedIn](https://www.linkedin.com/in/jashwanth-peddisetty/) and [Twitter](https://twitter.com/jashwanth0712).
-
-
-- 📫 How to reach me **jashwanth0712@gmail.com**
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/jashwanth" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jashwanth" height="30" width="40" /></a>
-<a href="https://instagram.com/jashwanthpeddisetty" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jashwanthpeddisetty" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://linkedin.com/in/jashwanth-peddisetty">LinkedIn</a> &bull;
+  <a href="https://twitter.com/jashwanth0712">Twitter</a> &bull;
+  <a href="mailto:jashwanth0712@gmail.com">Email</a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+---
+
+### What I'm building
+
+I build products end-to-end — from idea to paying customers. Most of my projects started as hackathon entries and turned into something real.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### <a href="https://easyclaw.in">EasyClaw</a>
+**Managed AI agent hosting — OpenClaw made simple.**
+One-click deploy for long-lived AI agents. No infra headaches.
+
+<sub>5 paying customers &bull; $150 MRR &bull; <a href="https://github.com/jashwanth0712/easyclaw">GitHub</a> &bull; <a href="https://easyclaw.in">Live</a></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### <a href="https://promptli.com">Promptli</a>
+**AI-powered chat plugin platform.**
+Building the next layer of conversational AI tooling.
+
+<sub>Active development &bull; <a href="https://github.com/jashwanth0712/promptli">GitHub</a> &bull; <a href="https://promptli.com">Live</a></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### <a href="https://documate-vert.vercel.app">Documate</a>
+**Chrome extension that auto-documents your research.**
+Click, browse, and everything you read gets organized and compiled automatically. No more losing tabs.
+
+<sub>80 users &bull; Featured on Product Hunt &bull; <a href="https://github.com/jashwanth0712/documate">GitHub</a> &bull; <a href="https://documate-vert.vercel.app">Live</a></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### <a href="https://reel.cat">ReelCat</a>
+**Reel editor for creators.**
+Edit and ship short-form video content fast — web and native.
+
+<sub><a href="https://github.com/jashwanth0712/reelcat">GitHub</a> &bull; <a href="https://reel.cat">Live</a></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### <a href="https://artly.co.in">Artly</a>
+**Fun kids toys company.**
+A side venture bringing creative, playful products to kids.
+
+<sub><a href="https://artly.co.in">artly.co.in</a></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### Other notable builds
+**[PeerNet](https://peernet.vercel.app)** — Decentralized VPN &bull; **[Citadelite](https://github.com/jashwanth0712/Citadelite)** — ETH India submission &bull; **[Synapse](https://github.com/jashwanth0712/synapse)** — AI agent knowledge marketplace on Stellar
+
+</td>
+</tr>
+</table>
+
+---
+
+### Highlights
+
+- Shipped **EasyClaw** from hackathon to **$150 MRR** with 5 paying customers
+- **Documate** launched on **Product Hunt**, reached **80 users**
+- 10+ hackathon submissions including **ETH India**, **Arweave**, and **Aria Multimodal**
+- Built and shipped **138+ public repos** — from blockchain to AI agents to mobile apps
+
+---
+
+### Tech I work with
+
+`JavaScript/TypeScript` `React` `Next.js` `React Native` `Node.js` `Python` `Flutter` `Solidity` `MongoDB` `PostgreSQL` `Docker` `AWS` `Vercel`
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jashwanth0712&show_icons=true&theme=transparent&hide_border=true&hide_title=true" alt="GitHub Stats" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanth0712&theme=transparent&hide_border=true" alt="Streak Stats" height="150"/>
+</p>
