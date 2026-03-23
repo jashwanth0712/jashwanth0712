@@ -178,10 +178,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Companies */}
+        {/* Ventures */}
         <section className="mb-16">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-500 mb-6">
-            Companies
+            Ventures
           </h2>
           <div className="space-y-4">
             <a
