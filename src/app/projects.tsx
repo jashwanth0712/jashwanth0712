@@ -3,7 +3,24 @@
 import { useState } from "react";
 import { ExternalLinkIcon, ChevronDownIcon } from "lucide-react";
 
-const projects = [
+interface Project {
+  name: string;
+  description: string;
+  tags: string[];
+  link?: string;
+  website?: string;
+  image?: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "Pixel Agents",
+    description:
+      "Desktop app that turns your AI coding agents into pixel art characters in a cozy virtual office. Cross-platform with auto-updates.",
+    tags: ["Desktop", "AI", "Electron"],
+    website: "https://pixelagent.space",
+    image: "/projects/pixel-agents.png",
+  },
   {
     name: "Promptli",
     description: "AI frontdesk for offline stores — currently building",
@@ -73,10 +90,34 @@ export default function Projects() {
                   transition: "opacity 0.3s ease",
                 }}
               >
-                <div className="flex items-start justify-between">
-                  <div>
+                <div className="flex items-start gap-4">
+                  {project.image && (
+                    <a
+                      href={project.website ?? project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0"
+                    >
+                      <img
+                        src={project.image}
+                        alt={project.name}
+                        className="w-14 h-14 rounded-lg object-cover"
+                      />
+                    </a>
+                  )}
+                  <div className="flex-1">
                     <h3 className="font-medium text-white flex items-center gap-2">
                       {project.name}
+                      {project.website && (
+                        <a
+                          href={project.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-zinc-500 hover:text-blue-400"
+                        >
+                          <ExternalLinkIcon size={14} />
+                        </a>
+                      )}
                       {project.link && (
                         <a
                           href={project.link}
