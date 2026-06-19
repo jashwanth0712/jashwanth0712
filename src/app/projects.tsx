@@ -22,6 +22,14 @@ const projects: Project[] = [
     image: "/projects/pixel-agents.png",
   },
   {
+    name: "Unseizable",
+    description:
+      "Canadian-friendly Bitcoin and stablecoin exchange interface with a wallet-first mobile experience.",
+    tags: ["Bitcoin", "Stablecoins", "Mobile"],
+    website: "https://unseizable.com",
+    image: "/projects/unseizable.png",
+  },
+  {
     name: "Promptli",
     description: "AI frontdesk for offline stores — currently building",
     tags: ["AI", "SaaS", "Active"],
