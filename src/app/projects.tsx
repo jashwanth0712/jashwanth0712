@@ -14,20 +14,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Pixel Agents",
-    description:
-      "Desktop app that turns your AI coding agents into pixel art characters in a cozy virtual office. Cross-platform with auto-updates.",
-    tags: ["Desktop", "AI", "Electron"],
-    website: "https://pixelagent.space",
-    image: "/projects/pixel-agents.png",
-  },
-  {
     name: "EAR",
     description:
       "Private, on-device AI meeting notes for iPhone — record, transcribe, identify speakers, and turn conversations into follow-up tasks.",
     tags: ["iOS", "On-device AI", "Privacy"],
     link: "https://github.com/jashwanth0712/ear",
     image: "/projects/ear.png",
+  },
+  {
+    name: "Pixel Agents",
+    description:
+      "Desktop app that turns your AI coding agents into pixel art characters in a cozy virtual office. Cross-platform with auto-updates.",
+    tags: ["Desktop", "AI", "Electron"],
+    website: "https://pixelagent.space",
+    image: "/projects/pixel-agents.png",
   },
   {
     name: "Unseizable",
