@@ -1,0 +1,275 @@
+.page {
+  --bg: #f3f2f2;
+  --text: #201e1d;
+  --muted: #6f6b6b;
+  --line: rgb(32 30 29 / 13%);
+  --line-strong: rgb(32 30 29 / 24%);
+  --accent: #ff563c;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  line-height: 1.55;
+}
+
+.shell {
+  width: min(1180px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.skipLink {
+  position: fixed;
+  z-index: 30;
+  top: -64px;
+  left: 16px;
+  padding: 10px 14px;
+  background: var(--text);
+  color: white;
+  font-weight: 650;
+}
+
+.skipLink:focus {
+  top: 14px;
+}
+
+.header {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  border-bottom: 1px solid var(--line);
+  background: rgb(243 242 242 / 94%);
+  backdrop-filter: blur(12px);
+}
+
+.header > .shell {
+  display: grid;
+  min-height: 66px;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 26px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 820;
+  letter-spacing: -0.025em;
+  text-decoration: none;
+}
+
+.brand span {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.headerLabel,
+.date,
+.footer p,
+.index {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  letter-spacing: 0.045em;
+}
+
+.headerLabel {
+  border-left: 1px solid var(--line);
+  padding-left: 26px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 13px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 620;
+  text-decoration: none;
+  transition: color 180ms ease, background 180ms ease;
+}
+
+.nav a:hover {
+  background: rgb(32 30 29 / 6%);
+  color: var(--text);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 330px minmax(0, 720px);
+  align-items: start;
+  gap: 100px;
+  padding: 76px 0 130px;
+}
+
+.intro {
+  position: sticky;
+  top: 112px;
+}
+
+.eyebrow {
+  margin: 7px 0 0;
+  color: var(--accent);
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.045em;
+}
+
+.intro h1 {
+  margin: 18px 0 24px;
+  font-size: clamp(44px, 5.6vw, 68px);
+  font-weight: 760;
+  letter-spacing: -0.065em;
+  line-height: 0.96;
+}
+
+.intro > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.date {
+  display: block;
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.document {
+  border-top: 1px solid var(--line-strong);
+}
+
+.document section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 22px;
+  border-bottom: 1px solid var(--line);
+  padding: 36px 0 43px;
+}
+
+.index {
+  padding-top: 4px;
+  color: var(--accent);
+  font-size: 10px;
+}
+
+.document h2 {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 690;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+
+.document p {
+  margin: 11px 0;
+  color: #555151;
+}
+
+.document a {
+  color: var(--text);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.footer {
+  border-top: 1px solid var(--line-strong);
+}
+
+.footer > .shell {
+  display: flex;
+  min-height: 96px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  color: var(--muted);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 9px;
+}
+
+.page a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 860px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .intro {
+    position: static;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 620px) {
+  .shell {
+    width: min(1180px, calc(100% - 28px));
+  }
+
+  .header {
+    position: static;
+  }
+
+  .header > .shell {
+    min-height: 62px;
+    grid-template-columns: 1fr auto;
+  }
+
+  .headerLabel {
+    display: none;
+  }
+
+  .nav a {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+
+  .content {
+    padding: 54px 0 90px;
+  }
+
+  .document section {
+    grid-template-columns: 28px 1fr;
+    gap: 10px;
+  }
+
+  .document h2 {
+    font-size: 22px;
+  }
+
+  .footer > .shell {
+    min-height: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 25px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page *,
+  .page *::before,
+  .page *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
