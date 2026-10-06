@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PolygonLabeler from "./PolygonLabeler";
 
 const DESCRIPTION =
@@ -52,6 +53,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-zinc-100">
       <main className="mx-auto max-w-5xl px-6 py-10 font-[family-name:var(--font-geist-sans)]">
+        <Link href="/tools" className="text-sm text-zinc-500 hover:text-white mb-6 inline-block">
+          &larr; Tools
+        </Link>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

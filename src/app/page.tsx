@@ -1,5 +1,7 @@
+import Link from "next/link";
 import {
   GithubIcon,
+  WrenchIcon,
   LinkedinIcon,
   TwitterIcon,
   ExternalLinkIcon,
@@ -107,6 +109,14 @@ export default function Home() {
             >
               <LinkedinIcon size={20} />
             </a>
+            <Link
+              href="/tools"
+              className="text-zinc-400 hover:text-white"
+              aria-label="Tools"
+              title="Tools"
+            >
+              <WrenchIcon size={20} />
+            </Link>
           </div>
         </section>
 

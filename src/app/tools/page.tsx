@@ -23,6 +23,9 @@ export default function ToolsPage() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-zinc-100">
       <main className="mx-auto max-w-2xl px-6 py-12 font-[family-name:var(--font-geist-sans)]">
+        <Link href="/" className="text-sm text-zinc-500 hover:text-white mb-6 inline-block">
+          &larr; Home
+        </Link>
         <h1 className="text-4xl font-bold tracking-tight text-white mb-2">
           Tools
         </h1>
